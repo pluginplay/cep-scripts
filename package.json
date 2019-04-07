@@ -9,6 +9,9 @@
   "bin": {
     "cep-scripts": "./bin/cep-scripts.js"
   },
+  "scripts": {
+    "release": "standard-version"
+  },
   "dependencies": {
     "md-2-json": "^1.0.5",
     "ncp": "^2.0.0",
@@ -17,5 +20,8 @@
     "rimraf": "^2.6.3",
     "yargs": "^13.2.2",
     "zip-folder": "^1.0.0"
+  },
+  "devDependencies": {
+    "standard-version": "^5.0.2"
   }
 }
