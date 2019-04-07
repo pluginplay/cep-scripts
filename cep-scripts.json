@@ -1,0 +1,12 @@
+{
+  "buildTarget": "/path/to/CEP/directory",
+  "packageName": "product-[version].zxp",
+  "packageZipName": "product-[version].zip",
+  "certificatePassword": "special-secret-sauce",
+  "certificateName": "product",
+  "github": {
+    "apiToken": "github-api-token",
+    "owner": "github-username",
+    "repo": "repository-name"
+  }
+}

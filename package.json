@@ -1,0 +1,21 @@
+{
+  "name": "@pluginplay/cep-scripts",
+  "version": "0.0.1",
+  "description": "Helper scripts for Adobe CEP projects.",
+  "main": "index.js",
+  "repository": "git@github.com:pluginplay/cep-scripts.git",
+  "author": "Sam Marks <sam@pluginplay.app>",
+  "license": "MIT",
+  "bin": {
+    "cep-scripts": "./bin/cep-scripts.js"
+  },
+  "dependencies": {
+    "md-2-json": "^1.0.5",
+    "ncp": "^2.0.0",
+    "node-github-release": "^0.2.1",
+    "ramda": "^0.26.1",
+    "rimraf": "^2.6.3",
+    "yargs": "^13.2.2",
+    "zip-folder": "^1.0.0"
+  }
+}
