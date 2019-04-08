@@ -25,7 +25,7 @@ const executeCommand = (command, outputCommand = true) => {
   if (outputCommand) {
     console.info(`$ ${command}`)
   }
-  const result = execSync(command, { cwd: path.join(__dirname, '..'), env: process.env }).toString()
+  const result = execSync(command, { cwd: process.cwd(), env: process.env }).toString()
   if (result && outputCommand) {
     console.log(result)
   }
