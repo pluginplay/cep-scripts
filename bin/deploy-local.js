@@ -2,6 +2,7 @@ const { getConfig, executeCommand } = require('../src/utils')
 const path = require('path')
 const fs = require('fs')
 const ncp = require('ncp')
+const rimraf = require('rimraf')
 
 const deployLocal = (args, cli) => {
   const config = getConfig()
@@ -13,6 +14,8 @@ const deployLocal = (args, cli) => {
     }
 
     executeCommand('yarn build', !args.quiet)
+
+    rimraf.sync(directories.target)
 
     if (!fs.existsSync(directories.target)) {
       fs.mkdirSync(directories.target)
