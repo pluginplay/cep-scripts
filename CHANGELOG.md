@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.0.5](https://github.com/pluginplay/cep-scripts/compare/v0.0.4...v0.0.5) (2019-07-11)
+
+
+### Bug Fixes
+
+* yarn --save is no longer ([df48b63](https://github.com/pluginplay/cep-scripts/commit/df48b63))
+
+
+
 ## [0.0.4](https://github.com/pluginplay/cep-scripts/compare/v0.0.3...v0.0.4) (2019-07-11)
 
 

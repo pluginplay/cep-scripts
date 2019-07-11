@@ -1,6 +1,6 @@
 {
   "name": "@pluginplay/cep-scripts",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Helper scripts for Adobe CEP projects.",
   "main": "index.js",
   "repository": "git@github.com:pluginplay/cep-scripts.git",
