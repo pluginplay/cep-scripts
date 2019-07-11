@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.0.4](https://github.com/pluginplay/cep-scripts/compare/v0.0.3...v0.0.4) (2019-07-11)
+
+
+### Bug Fixes
+
+* update aescripts processor for updated licensing framework ([7e9f9cc](https://github.com/pluginplay/cep-scripts/commit/7e9f9cc))
+
+
+
 ## [0.0.3](https://github.com/pluginplay/cep-scripts/compare/v0.0.2...v0.0.3) (2019-05-16)
 
 
