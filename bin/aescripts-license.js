@@ -55,10 +55,10 @@ const aescriptsLicense = (args, cli) => {
     return `${dep}@${packageJson.dependencies[dep]}`
   }).join(' ')
 
-  executeCommand(`yarn add --save ${packages}`, !args.quiet)
+  executeCommand(`yarn add ${packages}`, !args.quiet)
 
   if (!args.quiet) console.log('Installing dependent packages...')
-  executeCommand('yarn add --save ajv', !args.quiet)
+  executeCommand('yarn add ajv', !args.quiet)
 
   if (!args.quiet) console.log('\n\nComplete!')
   if (!args.quiet) console.log('Please refer to the adding-aescripts.md file for more information on what to do now.')
