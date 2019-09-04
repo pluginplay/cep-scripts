@@ -37,7 +37,7 @@ const aescriptsLicense = (args, cli) => {
   if (!args.quiet) console.log('TRANSFORM src/vendor/aesp.js')
   let contents = fs.readFileSync(files.aesp, 'utf8')
     .replaceAndEnforce('A.appendChild(I),document.head.appendChild(A)', 'A.appendChild(I)')
-    .replaceAndEnforce('i.id=A,document.head.appendChild(i)', '')
+    .replaceAndEnforce('i.id=A,document.head.appendChild(i)', 'i.id=A')
   contents = `/* eslint-disable */\nconst Ajv = require('ajv')\n\n${contents}\n\nmodule.exports = Aesp\n`
 
   if (!args.quiet) console.log('WRITE src/vendor/aesp.js')
